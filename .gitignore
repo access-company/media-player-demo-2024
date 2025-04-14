@@ -1,0 +1,9 @@
+# Meta
+.DS_Store
+
+# VSCode
+.vscode
+
+# Media
+media
+www/segments

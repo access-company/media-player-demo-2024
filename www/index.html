@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Media Player Demo 2024</title>
+  <style type="text/css">
+    #app {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    #video-container {
+      margin: 1em;
+    }
+
+    #log-container {
+      margin: 1em;
+    }
+
+    #menu-container {
+      margin: 1em;
+      text-align: right;
+    }
+  </style>
+  <script src="abr/task.js"></script>
+  <script src="controller/playerController.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div id="player-container">
+      <div id="video-container">
+        <video width="100%" controls id="v"></video>
+      </div>
+      <div id="menu-container">
+        <span>解像度:</span>
+        <select id="resolution">
+        </select>
+      </div>
+    </div>
+    <div id="log-container">
+      Debug INFO
+      <ul>
+        <li>currentTime</li>
+        <ul>
+          <li id="currentTime"></li>
+        </ul>
+
+        <li>lastSegmentIndexBeingLoaded</li>
+        <ul>
+          <li id="lastSegmentIndexBeingLoaded"></li>
+        </ul>
+
+        <li>lastLoadedSegmentIndex</li>
+        <ul>
+          <li id="lastLoadedSegmentIndex"></li>
+        </ul>
+
+        <li>activeRequests.length</li>
+        <ul>
+          <li id="activeRequests"></li>
+        </ul>
+
+        <li>resolutionId</li>
+        <ul>
+          <li id="resolutionId"></li>
+        </ul>
+
+        <li>isOffline</li>
+        <ul>
+          <li id="isOffline"></li>
+        </ul>
+
+
+      </ul>
+    </div>
+</div>
+</body>
+
+</html>
