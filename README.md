@@ -230,3 +230,6 @@ Webサイトは表示されますが、動画再生は開始されません。
 
 - Media Source Extensions に関する解説（2018年6月6日投稿: 鍋島 公章）  
   - https://tech.jstream.jp/blog/streaming/media-source-extensions/
+- 2025 年のメディア研修で使用されているソースコード 
+  - https://github.com/aAkimiShimada/media-player-demo
+  - 本リポジトリをベースに幾らか手を加えた実装が用意されました。2025年の研修においてはこちらが使用されています。
